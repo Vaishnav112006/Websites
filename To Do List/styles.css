@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: rgb(198, 198, 196);
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+form input, form select{
+    height: 25px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+th, td{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+th{
+    background: #fff;
+    font-weight: bold;
+}
+
+th:hover{
+    background-color: #ccc;
+}
+
+td:nth-child(odd):hover{
+    background: #dfdbd3;
+    color: #000000;
+}
+
+td:nth-child(even):hover{
+    background-color: #e6f4ff;
+    color: #000000;
+}
+
+button{
+    padding: 8px;
+    margin: 0 5px;
+    border: none;
+    border-radius: none;
+    cursor: pointer;
+}
+
+.edit-btn{
+    background-color: #f0ad4e;
+    color: #fff;
+}
+
+.delete-btn{
+    background-color: #d9534f;
+    color: #fff;
+}
+
+.save-btn{
+    background-color: #5cb85c;
+    color: #fff;
+}
